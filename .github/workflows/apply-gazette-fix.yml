@@ -1,5 +1,6 @@
 name: Apply Gazette fixes
 
+# Triggered after the deck navigation hotfix was added.
 on:
   push:
     branches: [main]
