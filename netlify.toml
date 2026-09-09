@@ -1,0 +1,4 @@
+[build]
+  publish = "."
+
+# Site statique : index.html à la racine, sans commande de build.
