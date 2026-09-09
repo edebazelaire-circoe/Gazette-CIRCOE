@@ -1,0 +1,34 @@
+name: Apply Gazette fixes
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/apply_gazette_fix.py'
+      - '.github/workflows/apply-gazette-fix.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Apply Gazette HTML fixes
+        run: python scripts/apply_gazette_fix.py
+      - name: Commit updated Gazette
+        run: |
+          if git diff --quiet -- index.html; then
+            echo 'No index.html changes to commit.'
+            exit 0
+          fi
+          git config user.name 'Gazette CIRCOE Bot'
+          git config user.email 'gazette-bot@users.noreply.github.com'
+          git add index.html
+          git commit -m 'Fix Gazette deck layout and navigation'
+          git push
