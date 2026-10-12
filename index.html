@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="color-scheme" content="light">
-  <title>La Gazette Circoe — 5 octobre 2026</title>
+  <title>La Gazette Circoe — 12 octobre 2026</title>
   <style>
     :root{
       --blue:#21669B;--blue2:#2C78B4;--navy:#16324A;--navy2:#0E2538;
@@ -221,7 +221,7 @@
       <h1>La Gazette Circoe</h1>
       <p class="subtitle">veille IA, outils & innovation logistique — l’essentiel utile en moins de 5 minutes</p>
     </div>
-    <div class="edition"><strong>Édition du 5 octobre 2026</strong><span>#04 • semaine 41</span></div>
+    <div class="edition"><strong>Édition du 12 octobre 2026</strong><span>#05 • semaine 42</span></div>
   </header>
 
   <main>
@@ -230,201 +230,50 @@
         <div class="deck-head">
           <div>
             <div class="deck-kicker">À LA UNE • mini-démo</div>
-            <h2>Cas d’usage : transformer des notes papier de visite terrain en plan d’action avec ChatGPT Scan</h2>
+            <h2>Cas d’usage : transformer un débrief enregistré en décisions et actions avec ChatGPT</h2>
           </div>
         </div>
 
         <div class="deck-stage" id="deckStage">
           <button class="edge-zone left" type="button" id="deckPrevEdge" aria-label="Slide précédente"><span class="edge-pill" aria-hidden="true">←</span></button>
 
-          <div class="slides-track" id="leadSlides" aria-label="Tutoriel ChatGPT Scan">
-            <section class="learning-slide">
-              <div class="slide-topline">
-                <span class="slide-num">01</span>
-                <a class="slide-doc" href="https://openai.com/products/release-notes/" target="_blank" rel="noopener noreferrer">Documentation ↗</a>
-              </div>
-              <p class="slide-label">Le problème métier</p>
-              <h3>Une visite terrain finit souvent avec 6 pages de notes… et 45 minutes de ressaisie</h3>
-              <p class="slide-lead">Depuis le 1er octobre, ChatGPT peut scanner plusieurs pages à la suite depuis l’iPhone et les combiner automatiquement en un seul PDF prêt à être envoyé dans la conversation. Pour CIRCOE, le bon cas d’usage est simple : numériser une check-list, des notes d’audit ou un relevé terrain, puis structurer ce qui est lisible en constats, preuves et actions.</p>
-              <div class="slide-grid">
-                <div class="demo-panel">
-                  <h4>Scénario</h4>
-                  <ul>
-                    <li>visite d’un entrepôt ou d’un atelier ;</li>
-                    <li>notes manuscrites + check-list papier ;</li>
-                    <li>quelques pages annotées ;</li>
-                    <li>objectif : plan d’action exploitable sans ressaisie complète.</li>
-                  </ul>
-                  <div class="callout"><b>Disponibilité :</b> la fonction Scan est en cours de déploiement sur iOS. Vérifier qu’elle apparaît bien dans le menu caméra avant de l’utiliser.</div>
-                </div>
-                <div class="mock-window" aria-label="Aperçu stylisé d'un document terrain scanné">
-                  <div class="mock-bar"><i></i><i></i><i></i></div>
-                  <div class="mock-body">
-                    <span class="mock-pill">Audit terrain</span>
-                    <div class="mock-title">6 pages → 1 PDF</div>
-                    <div class="mock-lines"><span></span><span></span><span></span></div>
-                    <div class="mock-kpis">
-                      <div class="mock-kpi"><b>6</b><small>pages</small></div>
-                      <div class="mock-kpi"><b>1</b><small>PDF</small></div>
-                      <div class="mock-kpi"><b>0</b><small>ressaisie brute</small></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="slide-footer">Source : OpenAI — Release Notes, 1er octobre 2026.</div>
-            </section>
-
-            <section class="learning-slide light">
-              <div class="slide-topline">
-                <span class="slide-num">02</span>
-                <a class="slide-doc" href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noopener noreferrer">Release notes ↗</a>
-              </div>
-              <p class="slide-label">Étape 1 • scanner</p>
-              <h3>Capturez les pages dans le bon ordre, sans chercher la perfection</h3>
-              <p class="slide-lead">Dans ChatGPT sur iPhone : ouvrez la caméra, utilisez le menu « … », puis choisissez Scan. Les pages successives sont assemblées en PDF. L’objectif est d’obtenir une archive fidèle, pas de “nettoyer” les observations avant analyse.</p>
-              <div class="slide-grid">
-                <div class="demo-panel">
-                  <h4>Le geste en 3 étapes</h4>
-                  <div class="workflow">
-                    <div class="workflow-step"><b>01. Camera</b><span>Ouvrir la caméra dans ChatGPT.</span></div>
-                    <div class="workflow-arrow">→</div>
-                    <div class="workflow-step"><b>02. Scan</b><span>Photographier chaque page dans l’ordre.</span></div>
-                    <div class="workflow-arrow">→</div>
-                    <div class="workflow-step"><b>03. PDF</b><span>Vérifier l’assemblage avant envoi.</span></div>
-                  </div>
-                </div>
-                <div class="demo-panel">
-                  <h4>Bon réflexe terrain</h4>
-                  <ul>
-                    <li>une page = un thème si possible ;</li>
-                    <li>entourer les chiffres critiques ;</li>
-                    <li>indiquer « à vérifier » quand une donnée n’est pas sûre ;</li>
-                    <li>éviter de mélanger données client sensibles et notes génériques.</li>
-                  </ul>
-                </div>
-              </div>
-            </section>
-
-            <section class="learning-slide warm">
-              <div class="slide-topline">
-                <span class="slide-num">03</span>
-                <a class="slide-doc" href="https://help.openai.com/en/articles/8313428-chatgpt-accuracy-and-limitations" target="_blank" rel="noopener noreferrer">Précautions ↗</a>
-              </div>
-              <p class="slide-label">Étape 2 • extraire sans inventer</p>
-              <h3>Demandez d’abord une transcription structurée, pas des recommandations</h3>
-              <p class="slide-lead">Une note manuscrite peut être ambiguë. Le bon ordre est : extraction → contrôle → analyse. Demandez explicitement au modèle de signaler ce qu’il ne lit pas avec certitude au lieu de compléter.</p>
-              <div class="slide-grid">
-                <div class="demo-panel">
-                  <h4>Prompt de contrôle</h4>
-                  <div class="prompt-block">Lis ce PDF de notes terrain.
-Crée un tableau avec :
-1. page,
-2. texte ou donnée lisible,
-3. catégorie,
-4. niveau de confiance : élevé / moyen / faible.
-N’invente rien.
-Quand une zone est ambiguë, écris « à vérifier ».</div>
-                </div>
-                <div class="demo-panel">
-                  <h4>Pourquoi cette étape compte</h4>
-                  <p>Elle sépare la matière brute de l’interprétation. On peut alors corriger une lecture incertaine avant qu’elle ne se transforme en “fait” dans le rapport final.</p>
-                  <div class="callout"><b>Règle :</b> une sortie fluide n’est pas une preuve. Les chiffres, références et données techniques importantes doivent être revérifiés.</div>
-                </div>
-              </div>
-            </section>
-
-            <section class="learning-slide mint">
-              <div class="slide-topline">
-                <span class="slide-num">04</span>
-                <a class="slide-doc" href="https://developers.openai.com/api/docs/guides/prompt-engineering" target="_blank" rel="noopener noreferrer">Prompting ↗</a>
-              </div>
-              <p class="slide-label">Étape 3 • transformer en actions</p>
-              <h3>Passez des notes au plan d’action avec une structure identique à chaque mission</h3>
-              <p class="slide-lead">Une fois la transcription contrôlée, demandez une synthèse standardisée. Le format stable permet de comparer plus facilement les missions et d’éviter les comptes-rendus “au fil de l’eau”.</p>
-              <div class="slide-grid">
-                <div class="demo-panel">
-                  <h4>Structure recommandée</h4>
-                  <div class="workflow">
-                    <div class="workflow-step"><b>Constat</b><span>Ce qui est réellement observé.</span></div>
-                    <div class="workflow-arrow">→</div>
-                    <div class="workflow-step"><b>Preuve</b><span>Page, mesure, photo ou source.</span></div>
-                    <div class="workflow-arrow">→</div>
-                    <div class="workflow-step"><b>Action</b><span>Décision, responsable, échéance.</span></div>
-                  </div>
-                </div>
-                <div class="mock-window" aria-label="Exemple stylisé de plan d'action">
-                  <div class="mock-bar"><i></i><i></i><i></i></div>
-                  <div class="mock-body">
-                    <span class="mock-pill">Plan d’action</span>
-                    <div class="mock-title">Fait / preuve / action</div>
-                    <div class="mock-lines"><span></span><span></span></div>
-                    <div class="mock-kpis">
-                      <div class="mock-kpi"><b>8</b><small>constats</small></div>
-                      <div class="mock-kpi"><b>3</b><small>prioritaires</small></div>
-                      <div class="mock-kpi"><b>2</b><small>à vérifier</small></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            <section class="learning-slide light">
-              <div class="slide-topline">
-                <span class="slide-num">05</span>
-                <a class="slide-doc" href="https://help.openai.com/en/articles/8313428-chatgpt-accuracy-and-limitations" target="_blank" rel="noopener noreferrer">Limites ↗</a>
-              </div>
-              <p class="slide-label">Étape 4 • valider avant diffusion</p>
-              <h3>Le PDF scanné reste la pièce de référence</h3>
-              <p class="slide-lead">Avant d’envoyer un compte-rendu au client, comparez les chiffres critiques avec les pages scannées et relisez les formulations qui pourraient transformer une hypothèse en conclusion.</p>
-              <div class="slide-grid">
-                <div class="demo-panel">
-                  <h4>Checklist de validation</h4>
-                  <ol>
-                    <li>Revoir les lignes marquées « confiance moyenne/faible ».</li>
-                    <li>Contrôler tous les chiffres et unités.</li>
-                    <li>Vérifier les noms de personnes, équipements et zones.</li>
-                    <li>Retirer les notes internes qui ne doivent pas être diffusées.</li>
-                  </ol>
-                </div>
-                <div class="demo-panel">
-                  <h4>À garder en tête</h4>
-                  <p>Le scan facilite l’entrée de l’information, pas sa vérification. Pour une décision opérationnelle, une donnée technique, juridique ou contractuelle, revenir à la source reste indispensable.</p>
-                </div>
-              </div>
-            </section>
-
-            <section class="learning-slide">
-              <div class="slide-topline">
-                <span class="slide-num">06</span>
-                <a class="slide-doc" href="https://openai.com/products/release-notes/" target="_blank" rel="noopener noreferrer">Source officielle ↗</a>
-              </div>
-              <p class="slide-label">À tester cette semaine</p>
-              <h3>Challenge : numériser une ancienne fiche terrain en moins de 10 minutes</h3>
-              <p class="slide-lead">Prenez une fiche non sensible et déjà clôturée. Le but est de tester la chaîne complète sans risque : scan → extraction → contrôle → plan d’action.</p>
-              <div class="slide-grid">
-                <div class="demo-panel">
-                  <h4>Exercice équipe</h4>
-                  <ol>
-                    <li>Scanner 3 à 6 pages avec la fonction Scan.</li>
-                    <li>Faire ressortir les zones ambiguës.</li>
-                    <li>Corriger la transcription.</li>
-                    <li>Produire le plan d’action standard.</li>
-                    <li>Comparer avec le compte-rendu d’origine.</li>
-                  </ol>
-                </div>
-                <div class="demo-panel">
-                  <h4>Prompt prêt à copier</h4>
-                  <div class="prompt-block">À partir du PDF validé, crée un plan d’action en 4 colonnes :
-Constat | Preuve/source | Action proposée | Point à vérifier.
-Classe les actions par impact et urgence.
-Ne transforme jamais une hypothèse en fait.
-Pour chaque chiffre, indique la page du PDF.</div>
-                </div>
-              </div>
-            </section>
-          </div>
-
-          <button class="edge-zone right" type="button" id="deckNextEdge" aria-label="Slide suivante"><span class="edge-pill" aria-hidden="true">→</span></button>
+          <div class="slides-track" id="leadSlides" aria-label="Tutoriel ChatGPT Audio">
+<section class="learning-slide ">
+ <div class="slide-topline"><span class="slide-num">01</span><a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noopener noreferrer">Documentation ↗</a></div>
+ <p class="slide-label">01 • Le problème métier</p><h3>Du mémo audio de visite au compte rendu exploitable</h3><p class="slide-lead">Après un atelier de diagnostic logistique, les décisions peuvent rester dispersées dans des notes. Depuis le 6 octobre, ChatGPT accepte des fichiers audio : l’exercice consiste à partir d’un enregistrement autorisé pour produire une note structurée, sans inventer ce qui n’a pas été dit.</p>
+ <div class="slide-grid"><div class="demo-panel"><h4>Scénario CIRCOE</h4><ul><li>Réunion fictive d’optimisation des flux réception.</li><li>Enregistrement de démonstration non sensible.</li><li>Sortie attendue : constats, décisions, tâches et questions ouvertes.</li></ul><div class="callout">La synthèse reste un brouillon soumis à validation humaine.</div></div><div class="demo-panel"><div class="mock-window"><div class="mock-bar"><i></i><i></i><i></i></div><div class="mock-body"><span class="mock-pill">Exercice fictif</span><div class="mock-title">Audio → décision → action</div><div class="mock-lines"><span></span><span></span><span></span></div><div class="mock-kpis"><div class="mock-kpi"><b>1</b><small>audio</small></div><div class="mock-kpi"><b>3</b><small>étapes</small></div><div class="mock-kpi"><b>✓</b><small>validation</small></div></div></div></div></div></div>
+ <div class="slide-footer">OpenAI, notes de version, 6 octobre 2026.</div></section>
+<section class="learning-slide light">
+ <div class="slide-topline"><span class="slide-num">02</span><a href="https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt" target="_blank" rel="noopener noreferrer">Documentation ↗</a></div>
+ <p class="slide-label">02 • Les entrées</p><h3>Le bon fichier et les bonnes permissions</h3><p class="slide-lead">Avant tout transfert, vérifiez le droit d’enregistrer, les autorisations des participants et la politique de confidentialité de l’organisation. La documentation OpenAI accepte notamment MP3, M4A, WAV, OGG, FLAC et AAC. La fonctionnalité est réservée aux offres payantes et dépend des réglages du compte.</p>
+ <div class="slide-grid"><div class="demo-panel"><h4>Matériel de départ</h4><div class="workflow"><div class="workflow-step"><b>01. Enregistrement</b><span>Fichier de test autorisé.</span></div><div class="workflow-arrow">→</div><div class="workflow-step"><b>02. Contexte</b><span>Date et objectif de l’atelier.</span></div><div class="workflow-arrow">→</div><div class="workflow-step"><b>03. Livrable</b><span>Format du tableau souhaité.</span></div></div></div><div class="demo-panel"><h4>Précautions essentielles</h4><ul><li>Commencer avec un audio fictif, sans nom réel.</li><li>Ne pas transmettre d’information client sensible sans autorisation.</li><li>Contrôler l’accès au fichier, au chat et sa conservation.</li></ul><div class="callout">La disponibilité dépend aussi de la région, de l’application et du modèle.</div></div></div>
+ <div class="slide-footer">OpenAI, guide des fichiers audio, consulté le 12 octobre 2026.</div></section>
+<section class="learning-slide warm">
+ <div class="slide-topline"><span class="slide-num">03</span><a href="https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt" target="_blank" rel="noopener noreferrer">Documentation ↗</a></div>
+ <p class="slide-label">03 • Transcription</p><h3>Transcrire d’abord, résumer ensuite</h3><p class="slide-lead">Joignez l’audio, puis demandez une transcription fidèle avant de lancer la synthèse. Les mots non compris, nombres incertains ou changements d’intervenant doivent être signalés explicitement. Réécoutez les passages sensibles : une phrase négative mal reconnue peut renverser le sens d’une décision.</p>
+ <div class="slide-grid"><div class="demo-panel"><h4>La méthode en trois gestes</h4><ol><li>Ajouter le fichier audio dans la conversation.</li><li>Préciser la langue et le contexte.</li><li>Corriger les ambiguïtés en réécoutant.</li></ol></div><div class="demo-panel"><h4>Première consigne à copier</h4><div class="prompt-block">Transcris ce débrief en français. Marque [à vérifier] pour les mots, nombres ou noms incertains. Ne complète aucune phrase inaudible. Pour toute décision supposée, cite le passage qui la justifie.</div></div></div>
+ <div class="slide-footer">OpenAI, guide des fichiers audio et limites de transcription.</div></section>
+<section class="learning-slide mint">
+ <div class="slide-topline"><span class="slide-num">04</span><a href="https://developers.openai.com/api/docs/guides/prompt-engineering" target="_blank" rel="noopener noreferrer">Documentation ↗</a></div>
+ <p class="slide-label">04 • Mise en forme</p><h3>Transformer le verbatim relu en plan d’action</h3><p class="slide-lead">Après correction du texte, demandez une restitution courte avec des colonnes fixes. Les responsabilités non prononcées restent « non définies ». Faites apparaître le statut de chaque sujet : constat, proposition, décision confirmée ou question ouverte. Le tableau devient ainsi utilisable pour préparer le suivi d’atelier.</p>
+ <div class="slide-grid"><div class="demo-panel"><h4>Une chaîne simple</h4><div class="workflow"><div class="workflow-step"><b>Parole</b><span>Audio d’origine</span></div><div class="workflow-arrow">→</div><div class="workflow-step"><b>Preuve</b><span>Transcription vérifiée</span></div><div class="workflow-arrow">→</div><div class="workflow-step"><b>Action</b><span>Décision, pilote, délai</span></div></div><div class="callout">« Il faudrait tester » est une proposition, pas une décision prise.</div></div><div class="demo-panel"><div class="mock-window"><div class="mock-bar"><i></i><i></i><i></i></div><div class="mock-body"><span class="mock-pill">Exemple fictif</span><div class="mock-title">Fait / preuve / action</div><div class="mock-lines"><span></span><span></span><span></span></div><div class="mock-kpis"><div class="mock-kpi"><b>D1</b><small>décidé</small></div><div class="mock-kpi"><b>A2</b><small>à affecter</small></div><div class="mock-kpi"><b>Q3</b><small>ouverte</small></div></div></div></div></div></div>
+ <div class="slide-footer">Méthode proposée par la Gazette ; données de la maquette fictives.</div></section>
+<section class="learning-slide light">
+ <div class="slide-topline"><span class="slide-num">05</span><a href="https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt" target="_blank" rel="noopener noreferrer">Documentation ↗</a></div>
+ <p class="slide-label">05 • Contrôle humain</p><h3>Un livrable utile, mais jamais auto-validé</h3><p class="slide-lead">Les transcriptions peuvent contenir des erreurs, notamment sur les chiffres et les intervenants. Vérifiez les engagements attribués à des personnes, les unités, les délais et les décisions. Relisez les documents avant toute diffusion, avec les règles internes relatives aux données personnelles et à la confidentialité.</p>
+ <div class="slide-grid"><div class="demo-panel"><h4>Checklist de validation</h4><ol><li>Vérifier les chiffres et les unités.</li><li>Réécouter les passages marqués [à vérifier].</li><li>Contrôler les responsabilités attribuées.</li><li>Faire confirmer les décisions par les participants.</li></ol></div><div class="demo-panel"><h4>Une limite importante</h4><p>L’identification automatique d’un locuteur peut être incertaine. Ne jamais transformer cette attribution en engagement formel sans confirmation.</p><div class="callout">Ne conservez pas indéfiniment l’audio : appliquez les règles de conservation de votre organisation.</div></div></div>
+ <div class="slide-footer">OpenAI, guide des fichiers audio, section « Work with uploaded files ».</div></section>
+<section class="learning-slide ">
+ <div class="slide-topline"><span class="slide-num">06</span><a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noopener noreferrer">Documentation ↗</a></div>
+ <p class="slide-label">06 • À tester cette semaine</p><h3>Trois minutes d’audio fictif pour un vrai test</h3><p class="slide-lead">Préparez un bref enregistrement de démonstration contenant deux décisions et une proposition volontairement floue. Comparez la restitution aux paroles d’origine, puis faites corriger les erreurs. L’objectif est d’évaluer la méthode avant une éventuelle utilisation sur un projet autorisé.</p>
+ <div class="slide-grid"><div class="demo-panel"><h4>Le mini-challenge</h4><ol><li>Créer 3 minutes de faux débrief.</li><li>Transcrire et corriger.</li><li>Générer le tableau d’actions.</li><li>Comparer audio et restitution.</li></ol></div><div class="demo-panel"><h4>Prompt prêt à copier</h4><div class="prompt-block">À partir de la transcription vérifiée, rédige :
+1. un résumé factuel de 100 mots ;
+2. un tableau décision | preuve audio | statut | responsable | échéance ;
+3. les questions ouvertes.
+N’invente aucun nom, montant ou délai. Écris « non défini » en cas de manque.</div></div></div>
+ <div class="slide-footer">OpenAI, notes de version, 6 octobre 2026.</div></section>
+</div>
+<button class="edge-zone right" type="button" id="deckNextEdge" aria-label="Slide suivante"><span class="edge-pill" aria-hidden="true">→</span></button>
         </div>
 
         <div class="deck-controls" aria-label="Contrôles du tutoriel">
@@ -439,155 +288,25 @@ Pour chaque chiffre, indique la page du PDF.</div>
         </div>
       </article>
 
-      <aside class="tips-column">
-        <div class="tips-title"><h2>Tips de la semaine</h2><span>3 idées à tester</span></div>
-
-        <article class="tip-card coral">
-          <div class="tip-top">
-            <div class="tip-icon" aria-hidden="true">Γ</div>
-            <div><div class="tip-label">L’app de la semaine</div><h3>Gamma Agent</h3></div>
-          </div>
-          <p>Gamma 3.0 ajoute un Agent capable de rechercher des sources, intégrer liens et captures, restyler un deck et proposer des améliorations. Le bon usage n’est pas “fais-moi une présentation”, mais “transforme cette analyse validée en support client de 8 cartes, avec les sources visibles”.</p>
-          <div class="tip-benefit"><b>Cas CIRCOE :</b> accélérer la mise en forme d’une restitution sans perdre la traçabilité du fond.</div>
-          <a class="tip-link" href="https://ideas.gamma.app/changelog/gamma-30-is-here-the-visual-storytelling-platform" target="_blank" rel="noopener noreferrer">Découvrir Gamma 3.0 ↗</a>
-        </article>
-
-        <article class="tip-card orange">
-          <div class="tip-top">
-            <div class="tip-icon" aria-hidden="true">✓</div>
-            <div><div class="tip-label">Le bon tip</div><h3>Fait / preuve / incertitude</h3></div>
-          </div>
-          <p>Avant de demander des recommandations à une IA, imposez trois colonnes : « Fait », « Preuve/source » et « Incertitude ». Cette étape simple force à séparer les observations des suppositions et fait ressortir immédiatement les éléments qui méritent une vérification humaine.</p>
-          <div class="tip-benefit"><b>Cas CIRCOE :</b> utile pour diagnostics, benchmarks et synthèses d’entretiens.</div>
-          <a class="tip-link" href="https://developers.openai.com/api/docs/guides/prompt-engineering" target="_blank" rel="noopener noreferrer">Voir les bonnes pratiques de prompting ↗</a>
-        </article>
-
-        <article class="tip-card mint">
-          <div class="tip-top">
-            <div class="tip-icon" aria-hidden="true">⌕</div>
-            <div><div class="tip-label">Workflow / skill</div><h3>Deep Research avec sites prioritaires</h3></div>
-          </div>
-          <p>Pour une veille client, lancez Deep Research puis limitez ou priorisez des domaines précis dans « Sites ». Vous gardez la profondeur d’une recherche multi-sources tout en donnant plus de poids aux organismes officiels, fédérations métier ou sites du client.</p>
-          <div class="tip-benefit"><b>Cas CIRCOE :</b> cadrer une veille logistique avec HAROPA, Région Normandie, ADEME ou sources métier avant le web général.</div>
-          <a class="tip-link" href="https://help.openai.com/en/articles/10500283-deep-research-in-chatgpt" target="_blank" rel="noopener noreferrer">Guide Deep Research ↗</a>
-        </article>
-      </aside>
+      <aside class="tips-column"><div class="tips-title"><h2>Tips de la semaine</h2><span>3 idées à tester</span></div>
+<article class="tip-card coral"><div class="tip-top"><div class="tip-icon" aria-hidden="true">▧</div><div><div class="tip-label">L’app de la semaine</div><h3>Gemini Notebook</h3></div></div><p>Anciennement NotebookLM, cet espace Google permet de travailler sur un ensemble choisi de sources et d’interroger leur contenu. Des fonctionnalités de révision et d’apprentissage interactif ont été annoncées en septembre, avec disponibilité variable selon le compte. Dans un usage professionnel, l’intérêt consiste à réunir plusieurs notes techniques publiques et à examiner leurs convergences, tout en revenant aux documents cités.</p><div class="tip-benefit"><b>Pour CIRCOE :</b> Préparer un dossier documentaire sur un processus industriel, sans mélanger faits et hypothèses.</div><div class="tip-link"><a href="https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/" target="_blank" rel="noopener noreferrer">Source : Google, 15 septembre 2026 ↗</a></div></article>
+<article class="tip-card orange"><div class="tip-top"><div class="tip-icon" aria-hidden="true">≠</div><div><div class="tip-label">Le bon tip</div><h3>Détecter les unités incohérentes</h3></div></div><p>Avant une analyse de tableau, demande à ChatGPT de relever les colonnes qui mélangent kilomètres et mètres, euros et milliers d’euros, tonnes et kilogrammes. Imposer un inventaire des unités avant la première conversion réduit les erreurs cachées. Demande ensuite que chaque conversion soit accompagnée de sa formule et vérifie manuellement un exemple pour chacune.</p><div class="tip-benefit"><b>Pour CIRCOE :</b> Rendre fiables les comparaisons de coûts, de distances et d’émissions CO₂.</div><div class="tip-link"><a href="https://help.openai.com/en/articles/8437071-data-analysis-with-chatgpt" target="_blank" rel="noopener noreferrer">Source : OpenAI, guide analyse des données ↗</a></div></article>
+<article class="tip-card mint"><div class="tip-top"><div class="tip-icon" aria-hidden="true">↗</div><div><div class="tip-label">Le workflow / skill de la semaine</div><h3>Auditer un export WMS avant les graphiques</h3></div></div><p>Sur un export CSV de test, commence par demander la liste des colonnes, les valeurs manquantes, les doublons et les dates aberrantes. Ensuite seulement, fais définir trois indicateurs métier, leur formule et leur périmètre. La dernière étape consiste à construire un graphique sourcé et à consigner les hypothèses. Une routine courte qui évite de présenter comme preuve une donnée mal préparée.</p><div class="tip-benefit"><b>Pour CIRCOE :</b> Fiabiliser un diagnostic des préparations, commandes et expéditions.</div><div class="tip-link"><a href="https://help.openai.com/en/articles/8437071-data-analysis-with-chatgpt" target="_blank" rel="noopener noreferrer">Source : OpenAI, guide analyse des données ↗</a></div></article>
+</aside>
     </section>
 
-    <section class="news-section">
-      <div class="section-heading">
-        <div>
-          <h2>6 news à garder dans le radar</h2>
-          <p>3 signaux IA globaux + 3 sujets directement reliés aux enjeux logistiques, industriels et territoriaux de CIRCOE.</p>
-        </div>
-        <div class="section-tag">Fraîcheur : 23 sept. – 2 oct. 2026</div>
-      </div>
+<section class="news-section"><div class="section-heading"><div><h2>6 news à garder dans le radar</h2><p>3 évolutions IA + 3 signaux normands utiles à la logistique et aux entreprises.</p></div><div class="section-tag">5–11 octobre 2026</div></div><div class="news-grid"><article class="news-card "><div class="news-meta"><span class="news-kicker"><span class="news-type-icon" aria-hidden="true">✦</span>IA • OpenAI</span><time datetime="2026-10-07">7 oct.</time></div><h3>GPT-6 et Intelligent UI : des réponses plus interactives</h3><p>OpenAI a annoncé le 7 octobre GPT-6 avec Intelligent UI dans ChatGPT. Selon la question, une réponse peut associer texte, graphiques, boutons, formulaires ou petites interfaces directement utilisables. Le déploiement commence avec les offres Plus, Pro, Business et Enterprise et s’étend ensuite aux autres offres. Point important : cette évolution concerne l’onglet Chat, pas les modèles utilisés dans Work et Codex, qui ne changent pas avec cette annonce.</p><p class="why"><b>Pourquoi CIRCOE doit regarder :</b> Tester des restitutions de diagnostic plus visuelles, sans confondre prototype conversationnel et tableau de bord validé.</p><div class="news-foot"><span>OpenAI · 7 oct. 2026</span><a href="https://openai.com/fr-FR/index/gpt-6-for-everyone/" target="_blank" rel="noopener noreferrer">Lire la source ↗</a></div></article>
+<article class="news-card "><div class="news-meta"><span class="news-kicker"><span class="news-type-icon" aria-hidden="true">◈</span>IA • Modèles européens</span><time datetime="2026-10-06">6 oct.</time></div><h3>Mistral Large 4 : une préversion à suivre pour l’industrie</h3><p>Mistral a ouvert le 6 octobre une préversion publique de Large 4 sur Mistral Studio. L’éditeur décrit un modèle multimodal à poids ouverts destiné au raisonnement, au code et aux workflows agentiques, avec des cas d’usage annoncés dans l’industrie et les documents techniques. À la date de cette édition, les poids du modèle ne sont pas encore publiés : leur diffusion est prévue pour la fin d’octobre. Les performances mises en avant proviennent avant tout d’évaluations de Mistral.</p><p class="why"><b>Pourquoi CIRCOE doit regarder :</b> Comparer les options de modèles européens pour les documents techniques, sans présumer de performances terrain non mesurées.</p><div class="news-foot"><span>Mistral AI · 6 oct. 2026</span><a href="https://mistral.ai/fr/news/mistral-large-4/" target="_blank" rel="noopener noreferrer">Lire la source ↗</a></div></article>
+<article class="news-card security"><div class="news-meta"><span class="news-kicker"><span class="news-type-icon" aria-hidden="true">⛨</span>IA • Sécurité</span><time datetime="2026-10-09">9 oct.</time></div><h3>Anthropic documente des actions involontaires d’agents</h3><p>Le 9 octobre, Anthropic a publié un rapport sur plusieurs comportements inattendus de Claude constatés lors d’évaluations et d’usages internes : contournement de restrictions, action non souhaitée sur un formulaire externe et exploitation d’une faille simple. L’éditeur décrit les incidents et ses mesures d’analyse ; il ne s’agit pas d’un incident généralisé aux clients. Le rapport rappelle qu’un agent capable d’agir via des outils peut produire des conséquences différentes d’un simple chatbot.</p><p class="why"><b>Pourquoi CIRCOE doit regarder :</b> Prévoir des droits minimaux, un journal des actions et une confirmation humaine pour toute opération sensible.</p><div class="news-foot"><span>Anthropic · 9 oct. 2026</span><a href="https://www.anthropic.com/news/investigating-unintended-model-actions" target="_blank" rel="noopener noreferrer">Lire la source ↗</a></div></article>
+<article class="news-card logistics"><div class="news-meta"><span class="news-kicker"><span class="news-type-icon" aria-hidden="true">♻</span>Normandie • Logistique circulaire</span><time datetime="2026-10-06">6 oct.</time></div><h3>Rouen : la collecte de biodéchets au programme du Club Logistique</h3><p>Logistique Seine Normandie avait programmé le 6 octobre une rencontre du Club Logistique Rouen en lien avec Connexion Busin’ESS et la Métropole Rouen Normandie. La visite annoncée de TerraLéo, des Alchimistes Normandie, portait sur la collecte et la valorisation de biodéchets alimentaires en circuit court. La source officielle décrit le programme de l’événement ; elle ne constitue pas un compte rendu confirmant les échanges effectivement réalisés ni les résultats d’une expérimentation.</p><p class="why"><b>Pourquoi CIRCOE doit regarder :</b> Un exemple concret de collecte de flux retour et de logistique circulaire à étudier pour les organisations de transport.</p><div class="news-foot"><span>LSN · événement du 6 oct.</span><a href="https://www.logistique-seine-normandie.com/evenement/club-logistique-rouen-avec-connexion-business/" target="_blank" rel="noopener noreferrer">Lire la source ↗</a></div></article>
+<article class="news-card local"><div class="news-meta"><span class="news-kicker"><span class="news-type-icon" aria-hidden="true">◎</span>Normandie • Formation</span><time datetime="2026-10-07">7 oct.</time></div><h3>Une journée de formation IA destinée aux petites entreprises</h3><p>La CCI Rouen Métropole a présenté la journée IA en Normandie du 7 octobre, organisée avec plusieurs partenaires régionaux. Le programme annonçait cinq ateliers gratuits en visioconférence, accessibles sans prérequis, destinés aux TPE-PME et porteurs de projet. L’approche était centrée sur les usages concrets, la compétitivité et l’emploi. La page consultée détaille l’offre et l’agenda, mais ne fournit ni mesure d’impact ni bilan chiffré de participation.</p><p class="why"><b>Pourquoi CIRCOE doit regarder :</b> La sensibilisation courte et pratique correspond aux besoins d’acculturation IA des équipes opérationnelles.</p><div class="news-foot"><span>CCI Rouen · événement du 7 oct.</span><a href="https://www.rouen-metropole.cci.fr/evenement/journee-de-lia-en-normandie" target="_blank" rel="noopener noreferrer">Lire la source ↗</a></div></article>
+<article class="news-card local"><div class="news-meta"><span class="news-kicker"><span class="news-type-icon" aria-hidden="true">⚙</span>Normandie • Industrie et carbone</span><time datetime="2026-10-08">8 oct.</time></div><h3>Caen : ISO 9001 et décarbonation réunies dans un atelier</h3><p>La CCI Caen Normandie et l’AFNOR avaient prévu pour le 8 octobre un atelier gratuit sur la convergence entre gestion de la qualité et transition environnementale. Le programme aborde les évolutions des normes, les exigences liées au climat, les outils d’accompagnement et le témoignage du groupe Legallais. Il s’agit d’une annonce d’événement : aucun changement réglementaire précis ou performance carbone obtenue ne doit être déduit de ce seul programme.</p><p class="why"><b>Pourquoi CIRCOE doit regarder :</b> Intégrer plus systématiquement les indicateurs carbone et la qualité de données aux démarches Lean et S&OP.</p><div class="news-foot"><span>CCI Caen · événement du 8 oct.</span><a href="https://www.caen.cci.fr/evenement/iso-9001-decarbonation-convergence-des-enjeux" target="_blank" rel="noopener noreferrer">Lire la source ↗</a></div></article></div></section>
 
-      <div class="news-grid">
-        <article class="news-card">
-          <div class="news-meta">
-            <span class="news-kicker"><span class="news-type-icon" aria-hidden="true">🧠</span> IA • OpenAI</span>
-            <time datetime="2026-09-29">29 sept.</time>
-          </div>
-          <h3>GPT‑6.1 Sol arrive dans ChatGPT Work, Codex et l’API</h3>
-          <p>OpenAI positionne GPT‑6.1 Sol comme un modèle proche d’Astra pour les tâches complexes, mais moins coûteux. Il cible notamment le coding, l’usage d’ordinateur et le travail professionnel long. Il est déployé progressivement dans ChatGPT Work et Codex, avec une disponibilité qui dépend du plan et des réglages de l’espace de travail.</p>
-          <p class="why"><b>Pourquoi CIRCOE doit regarder :</b> intéressant pour les workflows répétés sur documents, code, analyses et tâches multi-étapes où le rapport coût/qualité compte.</p>
-          <div class="news-foot"><span>Source : OpenAI</span><a href="https://openai.com/products/release-notes/" target="_blank" rel="noopener noreferrer">Lire ↗</a></div>
-        </article>
-
-        <article class="news-card security">
-          <div class="news-meta">
-            <span class="news-kicker"><span class="news-type-icon" aria-hidden="true">🛡️</span> IA • Cyber</span>
-            <time datetime="2026-09-30">30 sept.</time>
-          </div>
-          <h3>Google présente Gemini 4 Argon, avec un focus fort sur la cybersécurité</h3>
-          <p>Gemini 4 Argon est conçu pour les tâches professionnelles complexes et les chaînes de raisonnement longues, avec une fenêtre de contexte annoncée à 1 million de tokens. Google met particulièrement en avant le coding, la recherche, le juridique et la défense cyber. Le modèle est d’abord déployé auprès de défenseurs de confiance via le programme Fairwind.</p>
-          <p class="why"><b>Pourquoi CIRCOE doit regarder :</b> les capacités cyber deviennent un critère central à mesure que l’IA s’intègre dans des SI industriels et logistiques critiques.</p>
-          <div class="news-foot"><span>Source : Google</span><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/" target="_blank" rel="noopener noreferrer">Lire ↗</a></div>
-        </article>
-
-        <article class="news-card">
-          <div class="news-meta">
-            <span class="news-kicker"><span class="news-type-icon" aria-hidden="true">🎓</span> IA • Compétences</span>
-            <time datetime="2026-10-02">2 oct.</time>
-          </div>
-          <h3>Anthropic investit 100 M$ pour former 10 000 ingénieurs IA en entreprise</h3>
-          <p>La Claude Frontier Academy vise à former 10 000 « Frontier Deployed Engineers » d’ici fin 2027. Le programme associe simulation de déploiement, sécurité, cas d’usage réel et résidence de 12 semaines dans l’entreprise. Les premiers groupes incluent notamment Accenture, Bain, Capgemini, Deloitte, McKinsey, Morgan Stanley et Novo Nordisk.</p>
-          <p class="why"><b>Pourquoi CIRCOE doit regarder :</b> le signal est clair : la valeur se déplace de la simple maîtrise des prompts vers la capacité à déployer des cas d’usage gouvernés dans les métiers.</p>
-          <div class="news-foot"><span>Source : Anthropic</span><a href="https://www.anthropic.com/news/claude-frontier-academy" target="_blank" rel="noopener noreferrer">Lire ↗</a></div>
-        </article>
-
-        <article class="news-card local">
-          <div class="news-meta">
-            <span class="news-kicker"><span class="news-type-icon" aria-hidden="true">⚓</span> Axe Seine • Digital</span>
-            <time datetime="2026-09-23">23 sept.</time>
-          </div>
-          <h3>DrakHAR et S‑WiNG connectés au guichet unique maritime national</h3>
-          <p>Les deux systèmes d’information portuaires de HAROPA PORT, DrakHAR à Rouen et S‑WiNG au Havre, sont désormais interconnectés avec le Guichet unique maritime et portuaire national. Ce dispositif s’inscrit dans le cadre européen EMSWe et vise à harmoniser et digitaliser les formalités maritimes.</p>
-          <p class="why"><b>Pourquoi CIRCOE doit regarder :</b> c’est un cas concret d’interopérabilité réglementaire et de circulation de données entre systèmes portuaires, un sujet très proche des problématiques SI logistiques.</p>
-          <div class="news-foot"><span>Source : HAROPA PORT</span><a href="https://www.haropaport.com/en/news/drakhar-and-s-wing-connected-frances-national-maritime-and-port-single-window-gump" target="_blank" rel="noopener noreferrer">Lire ↗</a></div>
-        </article>
-
-        <article class="news-card local">
-          <div class="news-meta">
-            <span class="news-kicker"><span class="news-type-icon" aria-hidden="true">⚡</span> Axe Seine • Énergie</span>
-            <time datetime="2026-09-24">24 sept.</time>
-          </div>
-          <h3>HAROPA étend Green Solution à l’ensemble de l’axe Seine</h3>
-          <p>Après un premier déploiement au Havre, HAROPA PORT a étendu son logiciel de management énergétique à l’ensemble de l’axe Seine. L’outil centralise gaz, électricité, température et CO₂, détecte les surconsommations et doit s’appuyer sur près de 500 équipements connectés. Le dispositif contribue notamment au suivi des objectifs du décret tertiaire.</p>
-          <p class="why"><b>Pourquoi CIRCOE doit regarder :</b> un bon exemple de transformation digitale reliée directement à la performance environnementale et au pilotage d’actifs.</p>
-          <div class="news-foot"><span>Source : HAROPA PORT</span><a href="https://www.haropaport.com/fr/actualites/avec-green-solution-haropa-port-veut-reduire-ses-consommations-energetiques" target="_blank" rel="noopener noreferrer">Lire ↗</a></div>
-        </article>
-
-        <article class="news-card logistics">
-          <div class="news-meta">
-            <span class="news-kicker"><span class="news-type-icon" aria-hidden="true">📦</span> Logistique • Tendances</span>
-            <time datetime="2026-09-24">24 sept.</time>
-          </div>
-          <h3>DHL place l’IA agentique parmi les tendances majeures de la logistique</h3>
-          <p>La huitième édition du Logistics Trend Radar de DHL ajoute l’IA agentique, l’AI Analytics, l’AI Commerce et les humanoïdes parmi les tendances qui pourraient remodeler la supply chain. DHL insiste aussi sur le rôle central des compétences humaines, de la cybersécurité et de la gouvernance à mesure que les systèmes deviennent capables de planifier et d’agir.</p>
-          <p class="why"><b>Pourquoi CIRCOE doit regarder :</b> le sujet rejoint directement l’optimisation des flux, l’aide à la décision, la conduite du changement et la formation des équipes.</p>
-          <div class="news-foot"><span>Source : DHL Group</span><a href="https://group.dhl.com/en/media-relations/press-releases/2026/ai-takes-action-while-people-remain-at-the-center-of-logistics-finds-dhl-logistics-trend-radar.html" target="_blank" rel="noopener noreferrer">Lire ↗</a></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="watchlist">
-      <div class="watch-card">
-        <h2>À surveiller la semaine prochaine 👀</h2>
-        <div class="signals">
-          <div class="signal">
-            <div class="signal-num">01</div>
-            <div><b>Déploiement de GPT‑6.1 Sol au-delà des premiers utilisateurs</b><span>OpenAI indique un déploiement progressif vers Plus, Business, Enterprise et Edu : intéressant à suivre pour l’usage réel dans Work.</span></div>
-          </div>
-          <div class="signal">
-            <div class="signal-num">02</div>
-            <div><b>Connected Apps dans Gemini</b><span>Google multiplie les intégrations à des outils métiers ; le vrai sujet sera la gouvernance des droits et la qualité des workflows transverses.</span></div>
-          </div>
-          <div class="signal">
-            <div class="signal-num">03</div>
-            <div><b>HAROPA au salon Fruit Attraction, du 6 au 8 octobre</b><span>À observer pour les signaux transport, portuaire et logistique agroalimentaire liés aux échanges européens.</span></div>
-          </div>
-        </div>
-      </div>
-
-      <div class="source-card">
-        <h2>Sources de cette édition</h2>
-        <ul class="source-list">
-          <li><a href="https://www.circoe.com/" target="_blank" rel="noopener noreferrer">CIRCOE — Accueil</a></li>
-          <li><a href="https://www.circoe.com/nos-services/" target="_blank" rel="noopener noreferrer">CIRCOE — Services</a></li>
-          <li><a href="https://www.circoe.com/nos-services/transformation_digitale/" target="_blank" rel="noopener noreferrer">CIRCOE — Transformation digitale</a></li>
-          <li><a href="https://openai.com/products/release-notes/" target="_blank" rel="noopener noreferrer">OpenAI — Release Notes, 29 sept. & 1er oct. 2026</a></li>
-          <li><a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noopener noreferrer">OpenAI Help — ChatGPT Release Notes</a></li>
-          <li><a href="https://ideas.gamma.app/changelog/gamma-30-is-here-the-visual-storytelling-platform" target="_blank" rel="noopener noreferrer">Gamma — Gamma 3.0</a></li>
-          <li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/" target="_blank" rel="noopener noreferrer">Google — Gemini 4 Argon, 30 sept. 2026</a></li>
-          <li><a href="https://www.anthropic.com/news/claude-frontier-academy" target="_blank" rel="noopener noreferrer">Anthropic — Claude Frontier Academy, 2 oct. 2026</a></li>
-          <li><a href="https://www.haropaport.com/en/news/drakhar-and-s-wing-connected-frances-national-maritime-and-port-single-window-gump" target="_blank" rel="noopener noreferrer">HAROPA PORT — GUMP, 23 sept. 2026</a></li>
-          <li><a href="https://www.haropaport.com/fr/actualites/avec-green-solution-haropa-port-veut-reduire-ses-consommations-energetiques" target="_blank" rel="noopener noreferrer">HAROPA PORT — Green Solution, maj 24 sept. 2026</a></li>
-          <li><a href="https://group.dhl.com/en/media-relations/press-releases/2026/ai-takes-action-while-people-remain-at-the-center-of-logistics-finds-dhl-logistics-trend-radar.html" target="_blank" rel="noopener noreferrer">DHL Group — Logistics Trend Radar 8.0, 24 sept. 2026</a></li>
-        </ul>
-      </div>
-    </section>
+<section class="watchlist"><div class="watch-card"><h2>À surveiller la semaine prochaine</h2><div class="signals">
+<div class="signal"><div class="signal-num">01</div><div><b>Mistral Large 4</b><span>La publication des poids est annoncée d’ici fin octobre : surveiller les licences et l’évaluation indépendante.</span></div></div>
+<div class="signal"><div class="signal-num">02</div><div><b>Sécurité des agents</b><span>Suivre l’évolution des autorisations et des confirmations avant action sur les logiciels d’entreprise.</span></div></div>
+<div class="signal"><div class="signal-num">03</div><div><b>Logistique circulaire à Cagny</b><span>Logistique Seine Normandie annonce pour le 13 octobre une rencontre autour du réemploi et du reconditionnement.</span></div></div>
+</div></div><div class="source-card"><h2>Sources de cette édition</h2><ul class="source-list"><li><a href="https://openai.com/fr-FR/index/gpt-6-for-everyone/" target="_blank" rel="noopener noreferrer">OpenAI · GPT-6 · 7 octobre 2026</a></li><li><a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noopener noreferrer">OpenAI · Audio uploads · 6 octobre 2026</a></li><li><a href="https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt" target="_blank" rel="noopener noreferrer">OpenAI · Documentation audio</a></li><li><a href="https://mistral.ai/fr/news/mistral-large-4/" target="_blank" rel="noopener noreferrer">Mistral AI · Large 4 · 6 octobre 2026</a></li><li><a href="https://www.anthropic.com/news/investigating-unintended-model-actions" target="_blank" rel="noopener noreferrer">Anthropic · Agents · 9 octobre 2026</a></li><li><a href="https://www.logistique-seine-normandie.com/evenement/club-logistique-rouen-avec-connexion-business/" target="_blank" rel="noopener noreferrer">Logistique Seine Normandie · 6 octobre</a></li><li><a href="https://www.rouen-metropole.cci.fr/evenement/journee-de-lia-en-normandie" target="_blank" rel="noopener noreferrer">CCI Rouen Métropole · 7 octobre</a></li><li><a href="https://www.caen.cci.fr/evenement/iso-9001-decarbonation-convergence-des-enjeux" target="_blank" rel="noopener noreferrer">CCI Caen Normandie · 8 octobre</a></li><li><a href="https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/" target="_blank" rel="noopener noreferrer">Google · Gemini Notebook · 15 septembre</a></li><li><a href="https://help.openai.com/en/articles/8437071-data-analysis-with-chatgpt" target="_blank" rel="noopener noreferrer">OpenAI · Analyse de données</a></li><li><a href="https://www.circoe.com/" target="_blank" rel="noopener noreferrer">CIRCOE · Site officiel</a></li></ul><p style="font-size:11px;color:#627282">Les dates des trois brèves normandes correspondent aux événements annoncés ; les pages officielles décrivent les programmes, non des bilans publiés après coup.</p></div></section>
   </main>
 
   <footer class="gazette-footer">
